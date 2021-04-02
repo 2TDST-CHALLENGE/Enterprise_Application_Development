@@ -1,0 +1,47 @@
+---------------------------------------
+          Cadastro_Usuario
+---------------------------------------
+email             | varchar | 40 | pk |
+username          | varchar | 40 |    |
+password          | varchar | 30 |    |
+---------------------------------------
+
+------------------------------------------
+             Estabelecimento
+------------------------------------------
+COD_ESTABELECIMENTO  | number  | 5  | pk |
+nome_fantasia        | varchar | 50 |    |
+razao_social         | varchar | 50 |    |
+cnpj                 | number  | 14 |    |
+ramo_atuacao 		 | varchar | 50 |    |
+endereco  			 | varchar | 50 |    | 
+telefone 		     | number  | 12 |    |
+------------------------------------------
+
+---------------------------------------
+          Produtos/Estoque
+---------------------------------------
+cod_produto       | number  | 5  | pk |
+nome_produto      | varchar | 30 |    |
+categ_produto     | varchar | 30 |    |
+desc_produto      | varchar | 30 |    |
+qtd_produto       | number  | 6  |    |
+valor_produto     | number  | 6,2|    |
+validade_produto  | date    |    |    |
+data_entrada 	  | date    |    |    |
+date_saida        | date    |    |    |
+---------------------------------------
+
+---------------------------------------
+                Saldo
+---------------------------------------
+Saldo                | number |   |   |
+Data_saldo           | date   |   |   |
+---------------------------------------
+
+---------------------------------------
+                Login
+---------------------------------------
+data_acesso         | date    |   |   |
+email_acessado      | varchar |   |   |
+---------------------------------------
