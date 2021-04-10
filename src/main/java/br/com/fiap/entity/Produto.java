@@ -42,7 +42,7 @@ public class Produto {
 
     public Produto(){}
 
-    public Produto(int codigo, java.lang.String nomeProduto, Categoria categoria, java.lang.String descricao, int quantidadeProduto, double valor, Calendar validade, Calendar dataEntrada, Calendar dataSaida) {
+    public Produto(int codigo, String nomeProduto, Categoria categoria, String descricao, int quantidadeProduto, double valor, Calendar validade, Calendar dataEntrada, Calendar dataSaida) {
         this.codigo = codigo;
         this.nomeProduto = nomeProduto;
         this.categoria = categoria;

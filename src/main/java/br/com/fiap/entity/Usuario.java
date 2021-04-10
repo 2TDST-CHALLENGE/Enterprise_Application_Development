@@ -1,7 +1,6 @@
 package br.com.fiap.entity;
 
 import javax.persistence.*;
-import javax.xml.namespace.QName;
 
 @Entity
 @Table(name = "CADASTRO_USUARIO")
@@ -20,7 +19,7 @@ public class Usuario {
 
     public Usuario(){}
 
-    public Usuario(java.lang.String email, java.lang.String username, java.lang.String senha) {
+    public Usuario(String email, String username, String senha) {
         this.email = email;
         this.username = username;
         this.senha = senha;

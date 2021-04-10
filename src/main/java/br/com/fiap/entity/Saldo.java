@@ -1,9 +1,11 @@
 package br.com.fiap.entity;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 import java.util.Calendar;
 
-@Entity
 @Table(name = "SALDO")
 public class Saldo {
 

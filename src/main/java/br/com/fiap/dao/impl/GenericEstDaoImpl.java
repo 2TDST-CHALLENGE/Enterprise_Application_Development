@@ -1,29 +1,32 @@
 package br.com.fiap.dao.impl;
 
-import br.com.fiap.dao.GenericDao;
+import br.com.fiap.dao.GenericEstDao;
+import br.com.fiap.dao.GenericUserDao;
 import br.com.fiap.exception.CommitException;
+import br.com.fiap.exception.EntityNotFoundException;
 
 import javax.persistence.EntityManager;
+import java.lang.reflect.ParameterizedType;
 
-public abstract class GenericDaoImpl<U, E, P> implements GenericDao<U, E, P> {
+public abstract class GenericEstDaoImpl<E, P> implements GenericUserDao<E, P> {
 
     private EntityManager em;
-    private Class<U> clazz;
+    private Class<E> clazz;
 
     @SuppressWarnings("unchecked")
-    public GenericDaoImpl(EntityManager em){
+    public GenericEstDaoImpl(EntityManager em){
         this.em = em;
-        this.clazz = (Class<U>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
+        this.clazz = (Class<E>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
     }
 
     @Override
-    public void create(U entidade) {
+    public void create(E entidade) {
         em.persist(entidade);
     }
 
     @Override
-    public U findById(E id) throws EntityNotFoundException {
-        U entidade = em.find(clazz, id);
+    public E findById(P id) throws EntityNotFoundException {
+        E entidade = em.find(clazz, id);
         if (entidade == null){
             throw new EntityNotFoundException();
         }
@@ -31,7 +34,7 @@ public abstract class GenericDaoImpl<U, E, P> implements GenericDao<U, E, P> {
     }
 
     @Override
-    public void update(P entidade) {
+    public void update(E entidade) {
         em.merge(entidade);
     }
 

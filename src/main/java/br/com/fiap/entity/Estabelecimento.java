@@ -30,10 +30,9 @@ public class Estabelecimento {
     private int telefone;
 
     public Estabelecimento(){
-
     }
 
-    public Estabelecimento(int codigo, java.lang.String nomeFantasia, java.lang.String razaoSocial, int cnpj, Ramo ramo, java.lang.String endereco, int telefone) {
+    public Estabelecimento(int codigo, String nomeFantasia, String razaoSocial, int cnpj, Ramo ramo, String endereco, int telefone) {
         this.codigo = codigo;
         this.nomeFantasia = nomeFantasia;
         this.razaoSocial = razaoSocial;

@@ -1,9 +1,8 @@
 package br.com.fiap.exception;
 
-public class EntityNotFoundException extends Exception{
-
+public class EntityNotFoundException extends Throwable {
     public EntityNotFoundException(){
-        super("Entidade não encontrada");
+        super("Usuário não encontrado!");
     }
 
     public EntityNotFoundException(String msg){
