@@ -39,8 +39,21 @@ public class Produto {
     @Temporal(TemporalType.DATE)
     @Column(name = "DATA_SAIDA")
     private Calendar dataSaida;
-    
-    
+
+    public Produto(){}
+
+    public Produto(int codigo, java.lang.String nomeProduto, Categoria categoria, java.lang.String descricao, int quantidadeProduto, double valor, Calendar validade, Calendar dataEntrada, Calendar dataSaida) {
+        this.codigo = codigo;
+        this.nomeProduto = nomeProduto;
+        this.categoria = categoria;
+        this.descricao = descricao;
+        this.quantidadeProduto = quantidadeProduto;
+        this.valor = valor;
+        this.validade = validade;
+        this.dataEntrada = dataEntrada;
+        this.dataSaida = dataSaida;
+    }
+
     public int getCodigo() {
         return codigo;
     }

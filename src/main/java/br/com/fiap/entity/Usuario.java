@@ -18,6 +18,14 @@ public class Usuario {
     @Column(name = "PASSWORD", nullable = false, length = 30)
     private String senha;
 
+    public Usuario(){}
+
+    public Usuario(java.lang.String email, java.lang.String username, java.lang.String senha) {
+        this.email = email;
+        this.username = username;
+        this.senha = senha;
+    }
+
     public String getEmail() {
         return email;
     }

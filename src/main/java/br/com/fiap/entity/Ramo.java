@@ -2,6 +2,6 @@ package br.com.fiap.entity;
 
 public enum Ramo {
     
-    Supermercado
+    SUPERMERCADO, DELIVERY, MERCADINHO
     
 }

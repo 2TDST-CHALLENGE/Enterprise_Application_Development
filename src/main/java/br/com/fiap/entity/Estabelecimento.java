@@ -29,6 +29,20 @@ public class Estabelecimento {
     @Column(name = "TELEFONE", length = 12)
     private int telefone;
 
+    public Estabelecimento(){
+
+    }
+
+    public Estabelecimento(int codigo, java.lang.String nomeFantasia, java.lang.String razaoSocial, int cnpj, Ramo ramo, java.lang.String endereco, int telefone) {
+        this.codigo = codigo;
+        this.nomeFantasia = nomeFantasia;
+        this.razaoSocial = razaoSocial;
+        this.cnpj = cnpj;
+        this.ramo = ramo;
+        this.endereco = endereco;
+        this.telefone = telefone;
+    }
+
     public int getCodigo() {
         return codigo;
     }
