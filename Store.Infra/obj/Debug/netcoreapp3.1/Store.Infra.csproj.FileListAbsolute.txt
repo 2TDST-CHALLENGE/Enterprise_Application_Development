@@ -1,0 +1,5 @@
+C:\Users\Luis Lopes\source\repos\Store\Store.Infra\bin\Debug\netcoreapp3.1\Store.Infra.deps.json
+C:\Users\Luis Lopes\source\repos\Store\Store.Infra\bin\Debug\netcoreapp3.1\Store.Infra.dll
+C:\Users\Luis Lopes\source\repos\Store\Store.Infra\obj\Debug\netcoreapp3.1\Store.Infra.csprojAssemblyReference.cache
+C:\Users\Luis Lopes\source\repos\Store\Store.Infra\obj\Debug\netcoreapp3.1\Store.Infra.AssemblyInfoInputs.cache
+C:\Users\Luis Lopes\source\repos\Store\Store.Infra\obj\Debug\netcoreapp3.1\Store.Infra.AssemblyInfo.cs

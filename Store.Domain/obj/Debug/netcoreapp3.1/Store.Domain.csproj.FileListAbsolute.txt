@@ -1,0 +1,5 @@
+C:\Users\Luis Lopes\source\repos\Store\Store.Domain\bin\Debug\netcoreapp3.1\Store.Domain.deps.json
+C:\Users\Luis Lopes\source\repos\Store\Store.Domain\bin\Debug\netcoreapp3.1\Store.Domain.dll
+C:\Users\Luis Lopes\source\repos\Store\Store.Domain\obj\Debug\netcoreapp3.1\Store.Domain.csprojAssemblyReference.cache
+C:\Users\Luis Lopes\source\repos\Store\Store.Domain\obj\Debug\netcoreapp3.1\Store.Domain.AssemblyInfoInputs.cache
+C:\Users\Luis Lopes\source\repos\Store\Store.Domain\obj\Debug\netcoreapp3.1\Store.Domain.AssemblyInfo.cs

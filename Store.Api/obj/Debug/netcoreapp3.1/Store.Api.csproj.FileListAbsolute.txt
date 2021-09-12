@@ -1,0 +1,10 @@
+C:\Users\Luis Lopes\source\repos\Store\Store.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Luis Lopes\source\repos\Store\Store.Api\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Luis Lopes\source\repos\Store\Store.Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Luis Lopes\source\repos\Store\Store.Api\bin\Debug\netcoreapp3.1\Store.Api.exe
+C:\Users\Luis Lopes\source\repos\Store\Store.Api\obj\Debug\netcoreapp3.1\Store.Api.csprojAssemblyReference.cache
+C:\Users\Luis Lopes\source\repos\Store\Store.Api\obj\Debug\netcoreapp3.1\Store.Api.AssemblyInfoInputs.cache
+C:\Users\Luis Lopes\source\repos\Store\Store.Api\obj\Debug\netcoreapp3.1\Store.Api.AssemblyInfo.cs
+C:\Users\Luis Lopes\source\repos\Store\Store.Api\obj\Debug\netcoreapp3.1\Store.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Luis Lopes\source\repos\Store\Store.Api\obj\Debug\netcoreapp3.1\staticwebassets\Store.Api.StaticWebAssets.Manifest.cache
+C:\Users\Luis Lopes\source\repos\Store\Store.Api\obj\Debug\netcoreapp3.1\staticwebassets\Store.Api.StaticWebAssets.xml
